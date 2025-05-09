@@ -49,7 +49,7 @@ const TabShare = () => {
 
         <MdOutlineInfo
           size={48}
-          className="cursor-pointer absolute right-0 transition-transform duration-300 transform hover:scale-110 text-black"
+          className="cursor-pointer absolute right-0 transition-transform duration-300 transform hover:scale-110 text-white"
         />
       </div>
     </div>
