@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { FaPlusCircle } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
-import { MdOutlineInfo } from "react-icons/md";
+import { IoInformationCircle } from "react-icons/io5";
 import { Link } from "react-router-dom";
 
 const TabShare = () => {
@@ -47,7 +47,7 @@ const TabShare = () => {
           </Link>
         </div>
 
-        <MdOutlineInfo
+        <IoInformationCircle
           size={48}
           className="cursor-pointer absolute right-0 transition-transform duration-300 transform hover:scale-110 text-white"
         />
